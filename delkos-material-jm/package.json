@@ -1,0 +1,26 @@
+{
+  "name": "delkos-material-jm",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmannDev43",
+  "license": "ISC",
+  "publisher": "jmannDev43",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Delkos Material JM",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-theme.json"
+      }
+    ]
+  }
+}

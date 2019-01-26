@@ -1,0 +1,29 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "comment": "This allows me to open the file on enter instead which makes more sense to me.",
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "space",
+    "command": "acceptSelectedSuggestion",
+    "when": "editorTextFocus && suggestWidgetVisible"
+  },
+  {
+    "key": "enter",
+    "command": "jumpToNextSnippetPlaceholder",
+    "when": "inSnippetMode"
+  }
+]
+
